@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9.8 (Linux 0.0.0)" package="" timestamp="2016-01-29T04:45:33" id="0" hostname="enieber" tests="9" errors="0" failures="0" time="0.055">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34"/>
+    </properties>
+    <testcase name="deve estar definido" time="0.011" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o controlador"/>
+    <testcase name="deve retornar active quando o state for igual a entrada" time="0.004" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o controlador"/>
+    <testcase name="deve retornar vazio quando o state for diferente da entrada" time="0.003" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o controlador"/>
+    <testcase name="deve ser um estado abstrato" time="0.006" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o roteador"/>
+    <testcase name="deve ter um template definido" time="0.005" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o roteador"/>
+    <testcase name="deve ter um controller definido" time="0.004" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o roteador"/>
+    <testcase name="o nome do controller deve ser elLayoutController" time="0.004" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para o componente Layout Testes para o roteador"/>
+    <testcase name="o serviço deve estar definido" time="0.011" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para elParametroService do componente Parametro buscar"/>
+    <testcase name="a busca deve retornar uma lista vazia" time="0.007" classname="PhantomJS 1.9.8 (Linux 0.0.0).Suite de teste para elParametroService do componente Parametro buscar"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

@@ -3,7 +3,7 @@
 var ENV = {
     src: 'app',
     dist: 'dist',
-    browsers: ['Chrome']
+    browsers: ['PhantomJS']
 };
 
 function loadTasks() {
@@ -13,9 +13,10 @@ function loadTasks() {
         test = require('./tasks/test'),
         copy = require('./tasks/copy'),
         gzip = require('./tasks/gzip'),
-        eslint = require('./tasks/eslint');
+        eslint = require('./tasks/eslint'),
+	start = require('./tasks/start');
 
-    return [clean, doc, minify, test, copy, gzip, eslint];
+    return [clean, doc, minify, test, copy, gzip, eslint, start];
 }
 
 function initConfig(grunt, tasks) {
@@ -40,6 +41,7 @@ function registerTasks(grunt) {
     grunt.registerTask('test', ['karma']);
     grunt.registerTask('dist', ['docs', 'test', 'requirejs:minifyCss', 'requirejs:minifyJs', 'copy', 'compress']);
     grunt.registerTask('default', ['dist']);
+    grunt.registerTask('start');
 }
 
 
